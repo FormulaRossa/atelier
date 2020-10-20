@@ -8,7 +8,6 @@ import java.util.Map;
 
 import static ch.schulerhome.atelier20_21.model.DictionaryBuilder.givenDictionary;
 import static org.junit.Assert.assertEquals;
-import static org.junit.Assert.assertNotNull;
 
 public class AnswerFetcherTest {
     @Test
@@ -20,7 +19,7 @@ public class AnswerFetcherTest {
         Map<String, Integer> result = underTest.fetchAnswers(question, dictionary.items);
 
         assertEquals(2, result.size());
-        assertEquals(Integer.valueOf(1), result.get("Orange"));
+        assertEquals(Integer.valueOf(2), result.get("Orange"));
     }
 
     private Question givenQuestion() {

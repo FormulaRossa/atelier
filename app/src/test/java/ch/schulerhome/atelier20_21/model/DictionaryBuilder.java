@@ -1,8 +1,6 @@
 package ch.schulerhome.atelier20_21.model;
 
-import java.security.Policy;
 import java.util.ArrayList;
-import java.util.Iterator;
 import java.util.List;
 
 public class DictionaryBuilder {
@@ -18,6 +16,7 @@ public class DictionaryBuilder {
         List<Item> items = new ArrayList<>();
         items.add(new Item("Banane", propertiesOf("color", "Gelb", "peel", "Nein")));
         items.add(new Item("Orange", propertiesOf("color", "Orange", "peel", "Nein")));
+        items.add(new Item("Aprikose", propertiesOf("color", "Orange", "peel", "Ja")));
         return items;
     }
 
