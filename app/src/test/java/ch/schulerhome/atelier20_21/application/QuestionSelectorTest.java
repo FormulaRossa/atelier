@@ -4,8 +4,6 @@ import ch.schulerhome.atelier20_21.model.Dictionary;
 import ch.schulerhome.atelier20_21.model.Question;
 import org.junit.Test;
 
-import java.util.List;
-
 import static ch.schulerhome.atelier20_21.model.DictionaryBuilder.givenDictionary;
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertNotNull;
@@ -23,7 +21,7 @@ public class QuestionSelectorTest {
         assertEquals("peel", result.feature);
     }
 
-    //@Test
+    @Test
     public void testBestMatchQuestionSelector() {
         Dictionary dictionary = givenDictionary();
         QuestionSelector underTest = new BestMatchQuestionSelector();
@@ -31,6 +29,6 @@ public class QuestionSelectorTest {
         Question result = underTest.selectQuestion(dictionary.items, dictionary.questions);
 
         assertNotNull(result);
-        assertEquals("peel", result.feature);
+        assertEquals("color", result.feature);
     }
 }
