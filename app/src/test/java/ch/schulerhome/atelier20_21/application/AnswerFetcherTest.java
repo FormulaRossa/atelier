@@ -18,11 +18,12 @@ public class AnswerFetcherTest {
         AnswerFetcher underTest = new AnswerFetcher();
         Map<String, Integer> result = underTest.fetchAnswers(question, dictionary.items);
 
-        assertEquals(2, result.size());
+        assertEquals(3, result.size());
         assertEquals(Integer.valueOf(2), result.get("Orange"));
     }
 
     private Question givenQuestion() {
+
         return givenDictionary().questions.get(1);
     }
 }

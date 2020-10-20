@@ -17,6 +17,7 @@ public class DictionaryBuilder {
         items.add(new Item("Banane", propertiesOf("color", "Gelb", "peel", "Nein")));
         items.add(new Item("Orange", propertiesOf("color", "Orange", "peel", "Nein")));
         items.add(new Item("Aprikose", propertiesOf("color", "Orange", "peel", "Ja")));
+        items.add(new Item("Ananas", propertiesOf("color", "Braun", "peel", "Nein")));
         return items;
     }
 

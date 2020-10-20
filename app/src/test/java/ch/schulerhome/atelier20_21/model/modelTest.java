@@ -6,8 +6,7 @@ import org.junit.Test;
 import static org.junit.Assert.assertEquals;
 
 public class ModelTest {
-    public final String JSON_STRING = "{\"items\":[{\"name\":\"Banane\",\"properties\":[{\"feature\":\"color\",\"value\":\"Gelb\"},{\"feature\":\"peel\",\"value\":\"Nein\"}]},{\"name\":\"Orange\",\"properties\":[{\"feature\":\"color\",\"value\":\"Orange\"},{\"feature\":\"peel\",\"value\":\"Nein\"}]},{\"name\":\"Aprikose\",\"properties\":[{\"feature\":\"color\",\"value\":\"Orange\"},{\"feature\":\"peel\",\"value\":\"Ja\"}]}],\"questions\":[{\"question\":\"Ist die Schale der Frucht essbar?\",\"feature\":\"peel\"},{\"question\":\"Welche Farbe hat die Frucht?\",\"feature\":\"color\"}]}";
-
+    public final String JSON_STRING = "{\"items\":[{\"name\":\"Banane\",\"properties\":[{\"feature\":\"color\",\"value\":\"Gelb\"},{\"feature\":\"peel\",\"value\":\"Nein\"}]},{\"name\":\"Orange\",\"properties\":[{\"feature\":\"color\",\"value\":\"Orange\"},{\"feature\":\"peel\",\"value\":\"Nein\"}]},{\"name\":\"Aprikose\",\"properties\":[{\"feature\":\"color\",\"value\":\"Orange\"},{\"feature\":\"peel\",\"value\":\"Ja\"}]},{\"name\":\"Ananas\",\"properties\":[{\"feature\":\"color\",\"value\":\"Braun\"},{\"feature\":\"peel\",\"value\":\"Nein\"}]}],\"questions\":[{\"question\":\"Ist die Schale der Frucht essbar?\",\"feature\":\"peel\"},{\"question\":\"Welche Farbe hat die Frucht?\",\"feature\":\"color\"}]}";
     @Test
     public void testJacksonSerializer() throws Exception {
         Dictionary dictionary = DictionaryBuilder.givenDictionary();
