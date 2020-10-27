@@ -20,7 +20,7 @@ public class AnswerFetcher {
     public Map<String, Integer> fetchAnswers(Question question, List<Item> items) {
         Map<String, Integer> result = new HashMap<>();
         for (Item item : items) {
-            Property property = findPropertyByFeature(question.feature, item.properties);
+            Property property = item.findPropertyByFeature(question.feature);
             if (property != null) {
                 if (!result.containsKey(property.value)) {
                     result.put(property.value, 0);
@@ -33,12 +33,4 @@ public class AnswerFetcher {
         return result;
     }
 
-    private Property findPropertyByFeature(String feature, List<Property> properties) {
-        for (Property property : properties) {
-            if (property.feature.equals(feature)) {
-                return property;
-            }
-        }
-        return null;
-    }
 }
