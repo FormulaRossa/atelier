@@ -7,6 +7,6 @@ import java.util.List;
 
 public interface QuestionSelector {
 
-    Question selectQuestion (List<Item> items, List<Question> questions);
+    Question selectQuestion(List<Item> items, List<Question> questions);
 
 }

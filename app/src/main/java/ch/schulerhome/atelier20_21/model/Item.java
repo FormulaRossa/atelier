@@ -10,7 +10,7 @@ public class Item {
     public Item() {
     }
 
-    public Item(String name, List<Property> properties){
+    public Item(String name, List<Property> properties) {
         this.name = name;
         this.properties = properties;
     }

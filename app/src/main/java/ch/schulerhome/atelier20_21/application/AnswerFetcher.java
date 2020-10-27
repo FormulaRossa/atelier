@@ -7,7 +7,6 @@ import ch.schulerhome.atelier20_21.model.Question;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
-import java.util.SortedSet;
 
 public class AnswerFetcher {
     /**

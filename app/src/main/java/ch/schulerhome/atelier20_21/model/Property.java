@@ -8,7 +8,7 @@ public class Property {
     public Property() {
     }
 
-    public Property(String feature, String value){
+    public Property(String feature, String value) {
         this.feature = feature;
         this.value = value;
     }
