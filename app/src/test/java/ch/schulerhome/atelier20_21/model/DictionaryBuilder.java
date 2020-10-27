@@ -12,7 +12,7 @@ public class DictionaryBuilder {
         return new Dictionary(items, questions);
     }
 
-    private static List<Item> givenItems() {
+    public static List<Item> givenItems() {
         List<Item> items = new ArrayList<>();
         items.add(new Item("Banane", propertiesOf("color", "Gelb", "peel", "Nein")));
         items.add(new Item("Orange", propertiesOf("color", "Orange", "peel", "Nein")));
