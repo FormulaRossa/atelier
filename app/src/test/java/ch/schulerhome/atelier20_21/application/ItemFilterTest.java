@@ -11,7 +11,7 @@ import static org.junit.Assert.assertEquals;
 
 public class ItemFilterTest {
     @Test
-    public void testItemFilter(){
+    public void testItemFilter() {
         List<Item> items = DictionaryBuilder.givenItems();
         Answer answer = new Answer("Orange", "color");
 
