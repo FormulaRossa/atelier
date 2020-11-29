@@ -5,6 +5,8 @@ import ch.schulerhome.atelier20_21.model.Item;
 import ch.schulerhome.atelier20_21.model.Property;
 import ch.schulerhome.atelier20_21.model.Question;
 
+import java.util.List;
+
 public class ItemResponder implements Responder {
 
     Item item;
@@ -14,8 +16,11 @@ public class ItemResponder implements Responder {
     }
 
     @Override
-    public Answer answer(Question question) {
+    public void answer(Question question, List<Item> candidates, ResponderCallback callback) {
+        System.out.println("-----------------------------");
+        System.out.println("Question: " + question.question);
         Property property = item.findPropertyByFeature(question.feature);
-        return new Answer(property.value, property.feature);
+        System.out.println("Answer: " + property.value);
+        callback.select(new Answer(property.value, property.feature));
     }
 }

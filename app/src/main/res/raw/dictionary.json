@@ -1,0 +1,137 @@
+{
+  "items": [
+    {
+      "name": "Banane",
+      "properties": [
+        {
+          "feature": "surface",
+          "value": "Ja"
+        },
+        {
+          "feature": "ball",
+          "value": "Ja"
+        },
+        {
+          "feature": "color",
+          "value": "Gelb"
+        }
+      ]
+    },
+    {
+      "name": "Quitte",
+      "properties": [
+        {
+          "feature": "surface",
+          "value": "Nein"
+        },
+        {
+          "feature": "ball",
+          "value": "Ja"
+        },
+        {
+          "feature": "color",
+          "value": "Gelb"
+        }
+      ]
+    },
+    {
+      "name": "Ananas",
+      "properties": [
+        {
+          "feature": "surface",
+          "value": "Nein"
+        },
+        {
+          "feature": "ball",
+          "value": "Nein"
+        },
+        {
+          "feature": "color",
+          "value": "Braun"
+        }
+      ]
+    },
+    {
+      "name": "Orange",
+      "properties": [
+        {
+          "feature": "surface",
+          "value": "Nein"
+        },
+        {
+          "feature": "ball",
+          "value": "Ja"
+        },
+        {
+          "feature": "color",
+          "value": "Orange"
+        }
+      ]
+    },
+    {
+      "name": "Erdbeere",
+      "properties": [
+        {
+          "feature": "surface",
+          "value": "Nein"
+        },
+        {
+          "feature": "ball",
+          "value": "Ja"
+        },
+        {
+          "feature": "color",
+          "value": "Rot"
+        }
+      ]
+    },
+    {
+      "name": "Wassermelone",
+      "properties": [
+        {
+          "feature": "surface",
+          "value": "Ja"
+        },
+        {
+          "feature": "ball",
+          "value": "Ja"
+        },
+        {
+          "feature": "color",
+          "value": "Grün"
+        }
+      ]
+    },
+    {
+      "name": "Kokosnuss",
+      "properties": [
+        {
+          "feature": "surface",
+          "value": "Nein"
+        },
+        {
+          "feature": "ball",
+          "value": "Ja"
+        },
+        {
+          "feature": "color",
+          "value": "Braun"
+        }
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "question": "Ist die Oberfläche glatt?",
+      "feature": "surface"
+    },
+    {
+      "question": "Welche Farbe hat die Frucht?",
+      "feature": "color"
+    },
+    {
+      "question": "Ist die Frucht Kugelförmig?",
+      "feature": "ball"
+    }
+  ]
+}

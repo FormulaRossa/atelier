@@ -9,13 +9,13 @@ import java.util.List;
 
 public class ItemFilter {
     public List<Item> filter(List<Item> items, Answer answer) {
-        List<Item> itemList = new ArrayList<>(items);
-        for (Item item : itemList) {
+        List<Item> result = new ArrayList<>(items);
+        for (Item item : items) {
             Property property = item.findPropertyByFeature(answer.feature);
-            if (!(property.value == answer.answer)) {
-                items.remove(item);
+            if (!(property.value.equals(answer.answer))) {
+                result.remove(item);
             }
         }
-        return items;
+        return result;
     }
 }

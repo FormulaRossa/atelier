@@ -12,25 +12,40 @@ public class SolutionFinder {
     QuestionSelector questionSelector;
     Responder responder;
     ItemFilter itemFilter = new ItemFilter();
-
     public SolutionFinder(QuestionSelector questionSelector, Responder responder) {
         this.questionSelector = questionSelector;
         this.responder = responder;
     }
 
-    List<Item> findSolution(List<Item> items, List<Question> questions) {
+    public void findSolution(List<Item> items, List<Question> questions, final SolutionCallback callback) {
 
-        List<Item> candidates = new ArrayList<>(items);
-        List<Question> remainingQuestions = new ArrayList<>(questions);
+        if (items.size() > 1 && questions.size() > 0) {
+            final List<Item> candidates = new ArrayList<>(items);
+            final List<Question> remainingQuestions = new ArrayList<>(questions);
 
-        do {
             Question question = questionSelector.selectQuestion(candidates, remainingQuestions);
-            Answer answer = responder.answer(question);
             remainingQuestions.remove(question);
-            candidates = itemFilter.filter(candidates, answer);
-        } while (candidates.size() > 1 && remainingQuestions.size() > 0);
 
-        return candidates;
+            responder.answer(
+                    question,
+                    candidates,
+                    new Responder.ResponderCallback() {
+                        @Override
+                        public void select(Answer answer) {
+                            findSolution(
+                                    itemFilter.filter(candidates, answer),
+                                    remainingQuestions,
+                                    callback
+                            );
+                        }
+                    });
+        } else {
+            callback.select(items);
+        }
 
+    }
+
+    public interface SolutionCallback {
+        void select(List<Item> items);
     }
 }
