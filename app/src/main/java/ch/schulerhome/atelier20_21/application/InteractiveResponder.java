@@ -17,7 +17,7 @@ import java.util.Set;
 public class InteractiveResponder implements Responder {
 
     private final AppCompatActivity appCompatActivity;
-    String selectedAnswer = null;
+    String selectedAnswer = "";
 
     public InteractiveResponder(AppCompatActivity appCompatActivity) {
         this.appCompatActivity = appCompatActivity;
@@ -30,19 +30,35 @@ public class InteractiveResponder implements Responder {
         questionView.setText(question.question);
         Set<String> answers = new AnswerFetcher().fetchAnswers(question, candidates).keySet();
 
-        RadioGroup radioGroup = appCompatActivity.findViewById(R.id.RadioGroup);
-        radioGroup.removeAllViews();
-        for (String answer : answers) {
-            addRadioButton(answer);
-        }
-
-        Button nextButton = appCompatActivity.findViewById(R.id.next);
-        nextButton.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                responderCallback.select(new Answer(selectedAnswer, question.feature));
+        if (answers.size() > 1) {
+            RadioGroup radioGroup = appCompatActivity.findViewById(R.id.RadioGroup);
+            radioGroup.removeAllViews();
+            for (String answer : answers) {
+                addRadioButton(answer);
             }
-        });
+
+            Button nextButton = appCompatActivity.findViewById(R.id.next);
+            nextButton.setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View view) {
+                    if (!selectedAnswer.equals("")) {
+                        responderCallback.select(new Answer(selectedAnswer, question.feature));
+                        selectedAnswer = "";
+                    }
+                }
+            });
+
+            Button skipButton = appCompatActivity.findViewById(R.id.skip);
+            skipButton.setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View view) {
+                    responderCallback.select(new Answer("0", question.feature));
+                    selectedAnswer = "";
+                }
+            });
+        } else {
+            responderCallback.select(new Answer(answers.iterator().next(), question.feature));
+        }
     }
 
     private void addRadioButton(String text) {

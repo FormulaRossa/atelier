@@ -6,6 +6,14 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         tools:context=".MainActivity">
+    <Button
+            android:text="überspringen"
+            android:layout_width="0dp"
+            android:layout_height="54dp" android:id="@+id/skip"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent" app:layout_constraintTop_toBottomOf="@+id/next"
+            android:onClick="callBackNext" app:layout_constraintHorizontal_bias="1.0" android:layout_marginLeft="32dp"
+            android:layout_marginStart="32dp" android:layout_marginRight="32dp" android:layout_marginEnd="32dp"/>
     <TextView
             android:text="Frage"
             android:layout_width="0dp"
@@ -28,12 +36,13 @@
         </LinearLayout>
     </ScrollView>
     <Button
-            android:text="Button"
-            android:layout_width="413dp"
+            android:text="Weiter"
+            android:layout_width="0dp"
             android:layout_height="54dp" android:id="@+id/next"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintEnd_toEndOf="parent" app:layout_constraintTop_toBottomOf="@+id/scrollView"
-            android:onClick="callBackNext"/>
+            android:onClick="callBackNext" android:layout_marginLeft="32dp" android:layout_marginStart="32dp"
+            android:layout_marginRight="32dp" android:layout_marginEnd="32dp"/>
     <androidx.appcompat.widget.Toolbar
             android:layout_width="0dp"
             android:layout_height="wrap_content"

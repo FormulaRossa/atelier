@@ -1,7 +1,7 @@
 package ch.schulerhome.atelier20_21;
 
+import android.content.Intent;
 import android.os.Bundle;
-import android.widget.TextView;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.Toolbar;
 import ch.schulerhome.atelier20_21.application.*;
@@ -10,6 +10,7 @@ import ch.schulerhome.atelier20_21.model.Item;
 import com.fasterxml.jackson.databind.ObjectMapper;
 
 import java.io.InputStream;
+import java.util.ArrayList;
 import java.util.List;
 
 public class MainActivity extends AppCompatActivity {
@@ -18,9 +19,11 @@ public class MainActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
+        final String EXTRA_MESSAGE = "ch.schulerhome.atelier20_21.MESSAGE";
+
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-
+        final MainActivity activity = this;
         dictionary = loadDictionary();
         Responder responder = new InteractiveResponder(this);
         QuestionSelector questionSelector = new BestMatchQuestionSelector();
@@ -31,12 +34,15 @@ public class MainActivity extends AppCompatActivity {
                 new SolutionFinder.SolutionCallback() {
                     @Override
                     public void select(List<Item> items) {
-                        TextView questionView = (TextView) findViewById(R.id.question);
-                        questionView.setText(Integer.toString(items.size()) + ":" + items.get(0).name);
-                        // list -> item.size()>1
-                        // detail -> item.size() = 1
+                        Intent intent = new Intent(activity, ResultActivity.class);
 
-                        // show result
+                        ArrayList<String> itemNames = new ArrayList<>();
+                        for (Item item : items) {
+                            itemNames.add(item.name);
+                        }
+
+                        intent.putExtra(EXTRA_MESSAGE, itemNames);
+                        startActivity(intent);
                     }
                 });
 

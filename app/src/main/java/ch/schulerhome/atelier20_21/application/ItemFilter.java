@@ -10,6 +10,10 @@ import java.util.List;
 public class ItemFilter {
     public List<Item> filter(List<Item> items, Answer answer) {
         List<Item> result = new ArrayList<>(items);
+        if (answer.answer.equals("0")) {
+            return result;
+        }
+
         for (Item item : items) {
             Property property = item.findPropertyByFeature(answer.feature);
             if (!(property.value.equals(answer.answer))) {
