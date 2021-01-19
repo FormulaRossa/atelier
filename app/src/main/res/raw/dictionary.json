@@ -1,70 +1,23 @@
 {
   "items": [
     {
-      "name": "Banane",
+      "name": "Apfel",
       "properties": [
         {
           "feature": "surface",
           "value": "Ja"
         },
         {
-          "feature": "ball",
-          "value": "Ja"
-        },
-        {
           "feature": "color",
-          "value": "Gelb"
-        }
-      ]
-    },
-    {
-      "name": "Quitte",
-      "properties": [
-        {
-          "feature": "surface",
-          "value": "Nein"
+          "value": "Gr\u00fcn"
         },
         {
           "feature": "ball",
           "value": "Ja"
         },
         {
-          "feature": "color",
-          "value": "Gelb"
-        }
-      ]
-    },
-    {
-      "name": "Ananas",
-      "properties": [
-        {
-          "feature": "surface",
+          "feature": "berry",
           "value": "Nein"
-        },
-        {
-          "feature": "ball",
-          "value": "Nein"
-        },
-        {
-          "feature": "color",
-          "value": "Braun"
-        }
-      ]
-    },
-    {
-      "name": "Orange",
-      "properties": [
-        {
-          "feature": "surface",
-          "value": "Nein"
-        },
-        {
-          "feature": "ball",
-          "value": "Ja"
-        },
-        {
-          "feature": "color",
-          "value": "Orange"
         }
       ]
     },
@@ -76,29 +29,184 @@
           "value": "Nein"
         },
         {
-          "feature": "ball",
-          "value": "Ja"
-        },
-        {
           "feature": "color",
           "value": "Rot"
+        },
+        {
+          "feature": "ball",
+          "value": "Nein"
+        },
+        {
+          "feature": "berry",
+          "value": "Ja"
         }
       ]
     },
     {
-      "name": "Wassermelone",
+      "name": "Birne",
+      "properties": [
+        {
+          "feature": "surface",
+          "value": "Nein"
+        },
+        {
+          "feature": "color",
+          "value": "Braun"
+        },
+        {
+          "feature": "ball",
+          "value": "Nein"
+        },
+        {
+          "feature": "berry",
+          "value": "Nein"
+        }
+      ]
+    },
+    {
+      "name": "Orange",
+      "properties": [
+        {
+          "feature": "surface",
+          "value": "Nein"
+        },
+        {
+          "feature": "color",
+          "value": "Orange"
+        },
+        {
+          "feature": "ball",
+          "value": "Ja"
+        },
+        {
+          "feature": "berry",
+          "value": "Nein"
+        }
+      ]
+    },
+    {
+      "name": "Kiwi",
+      "properties": [
+        {
+          "feature": "surface",
+          "value": "Nein"
+        },
+        {
+          "feature": "color",
+          "value": "Braun"
+        },
+        {
+          "feature": "ball",
+          "value": "Ja"
+        },
+        {
+          "feature": "berry",
+          "value": "Nein"
+        }
+      ]
+    },
+    {
+      "name": "Traube",
       "properties": [
         {
           "feature": "surface",
           "value": "Ja"
         },
         {
+          "feature": "color",
+          "value": "Gr\u00fcn"
+        },
+        {
           "feature": "ball",
           "value": "Ja"
         },
         {
+          "feature": "berry",
+          "value": "Nein"
+        }
+      ]
+    },
+    {
+      "name": "Ananas",
+      "properties": [
+        {
+          "feature": "surface",
+          "value": "Nein"
+        },
+        {
           "feature": "color",
-          "value": "Grün"
+          "value": "Braun"
+        },
+        {
+          "feature": "ball",
+          "value": "Nein"
+        },
+        {
+          "feature": "berry",
+          "value": "Nein"
+        }
+      ]
+    },
+    {
+      "name": "Aprikose",
+      "properties": [
+        {
+          "feature": "surface",
+          "value": "Ja"
+        },
+        {
+          "feature": "color",
+          "value": "Orange"
+        },
+        {
+          "feature": "ball",
+          "value": "Ja"
+        },
+        {
+          "feature": "berry",
+          "value": "Nein"
+        }
+      ]
+    },
+    {
+      "name": "Banane",
+      "properties": [
+        {
+          "feature": "surface",
+          "value": "Ja"
+        },
+        {
+          "feature": "color",
+          "value": "Gelb"
+        },
+        {
+          "feature": "ball",
+          "value": "Nein"
+        },
+        {
+          "feature": "berry",
+          "value": "Nein"
+        }
+      ]
+    },
+    {
+      "name": "Mango",
+      "properties": [
+        {
+          "feature": "surface",
+          "value": "Ja"
+        },
+        {
+          "feature": "color",
+          "value": "Orange"
+        },
+        {
+          "feature": "ball",
+          "value": "Nein"
+        },
+        {
+          "feature": "berry",
+          "value": "Nein"
         }
       ]
     },
@@ -110,19 +218,191 @@
           "value": "Nein"
         },
         {
+          "feature": "color",
+          "value": "Braun"
+        },
+        {
           "feature": "ball",
           "value": "Ja"
         },
         {
+          "feature": "berry",
+          "value": "Nein"
+        }
+      ]
+    },
+    {
+      "name": "Wassermelone",
+      "properties": [
+        {
+          "feature": "surface",
+          "value": "Ja"
+        },
+        {
+          "feature": "color",
+          "value": "Gr\u00fcn"
+        },
+        {
+          "feature": "ball",
+          "value": "Ja"
+        },
+        {
+          "feature": "berry",
+          "value": "Nein"
+        }
+      ]
+    },
+    {
+      "name": "Kaki",
+      "properties": [
+        {
+          "feature": "surface",
+          "value": "Ja"
+        },
+        {
+          "feature": "color",
+          "value": "Orange"
+        },
+        {
+          "feature": "ball",
+          "value": "Ja"
+        },
+        {
+          "feature": "berry",
+          "value": "Nein"
+        }
+      ]
+    },
+    {
+      "name": "Dattel",
+      "properties": [
+        {
+          "feature": "surface",
+          "value": "Nein"
+        },
+        {
           "feature": "color",
           "value": "Braun"
+        },
+        {
+          "feature": "ball",
+          "value": "Nein"
+        },
+        {
+          "feature": "berry",
+          "value": "Nein"
+        }
+      ]
+    },
+    {
+      "name": "Feige",
+      "properties": [
+        {
+          "feature": "surface",
+          "value": "Nein"
+        },
+        {
+          "feature": "color",
+          "value": "Braun"
+        },
+        {
+          "feature": "ball",
+          "value": "Nein"
+        },
+        {
+          "feature": "berry",
+          "value": "Nein"
+        }
+      ]
+    },
+    {
+      "name": "Brombeere",
+      "properties": [
+        {
+          "feature": "surface",
+          "value": "Nein"
+        },
+        {
+          "feature": "color",
+          "value": "Schwarz"
+        },
+        {
+          "feature": "ball",
+          "value": "Ja"
+        },
+        {
+          "feature": "berry",
+          "value": "Ja"
+        }
+      ]
+    },
+    {
+      "name": "Heidelbeere",
+      "properties": [
+        {
+          "feature": "surface",
+          "value": "Ja"
+        },
+        {
+          "feature": "color",
+          "value": "Blau"
+        },
+        {
+          "feature": "ball",
+          "value": "Ja"
+        },
+        {
+          "feature": "berry",
+          "value": "Ja"
+        }
+      ]
+    },
+    {
+      "name": "Himbeere",
+      "properties": [
+        {
+          "feature": "surface",
+          "value": "Nein"
+        },
+        {
+          "feature": "color",
+          "value": "Rot"
+        },
+        {
+          "feature": "ball",
+          "value": "Ja"
+        },
+        {
+          "feature": "berry",
+          "value": "Ja"
+        }
+      ]
+    },
+    {
+      "name": "Johannisbeere",
+      "properties": [
+        {
+          "feature": "surface",
+          "value": "Ja"
+        },
+        {
+          "feature": "color",
+          "value": "Rot"
+        },
+        {
+          "feature": "ball",
+          "value": "Ja"
+        },
+        {
+          "feature": "berry",
+          "value": "Ja"
         }
       ]
     }
   ],
   "questions": [
     {
-      "question": "Ist die Oberfläche glatt?",
+      "question": "Ist die Oberfl\u00e4che glatt?",
       "feature": "surface"
     },
     {
@@ -130,8 +410,12 @@
       "feature": "color"
     },
     {
-      "question": "Ist die Frucht Kugelförmig?",
+      "question": "Ist die Frucht kugelf\u00f6rmig?",
       "feature": "ball"
+    },
+    {
+      "question": "Ist die Frucht eine Beere?",
+      "feature": "berry"
     }
   ]
 }
