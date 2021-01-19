@@ -12,6 +12,7 @@ public class SolutionFinder {
     QuestionSelector questionSelector;
     Responder responder;
     ItemFilter itemFilter = new ItemFilter();
+
     public SolutionFinder(QuestionSelector questionSelector, Responder responder) {
         this.questionSelector = questionSelector;
         this.responder = responder;

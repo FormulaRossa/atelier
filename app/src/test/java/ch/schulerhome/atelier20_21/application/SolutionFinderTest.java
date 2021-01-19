@@ -28,7 +28,7 @@ public class SolutionFinderTest {
                 new SolutionFinder.SolutionCallback() {
                     @Override
                     public void select(List<Item> items) {
-                       answer.addAll(items);
+                        answer.addAll(items);
                     }
                 });
 
