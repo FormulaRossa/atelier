@@ -14,15 +14,37 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class MainActivity extends AppCompatActivity {
-
+    final String EXTRA_MESSAGE = "ch.schulerhome.atelier20_21.MESSAGE";
     Dictionary dictionary;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
-        final String EXTRA_MESSAGE = "ch.schulerhome.atelier20_21.MESSAGE";
 
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
+        Toolbar toolbar = findViewById(R.id.toolbar);
+        toolbar.setTitle("Atelier");
+
+        start();
+    }
+
+    private Dictionary loadDictionary() {
+        try {
+            InputStream in_s = getResources().openRawResource(R.raw.dictionary);
+            byte[] b = new byte[in_s.available()];
+            in_s.read(b);
+            String json = new String(b);
+
+            Dictionary dictionary = new ObjectMapper().readValue(json, Dictionary.class);
+            return dictionary;
+        } catch (Exception e) {
+            return null;
+        }
+
+    }
+
+    public void start() {
         final MainActivity activity = this;
         dictionary = loadDictionary();
         Responder responder = new InteractiveResponder(this);
@@ -45,23 +67,5 @@ public class MainActivity extends AppCompatActivity {
                         startActivity(intent);
                     }
                 });
-
-        Toolbar toolbar = findViewById(R.id.toolbar);
-        toolbar.setTitle("Atelier");
-    }
-
-    private Dictionary loadDictionary() {
-        try {
-            InputStream in_s = getResources().openRawResource(R.raw.dictionary);
-            byte[] b = new byte[in_s.available()];
-            in_s.read(b);
-            String json = new String(b);
-
-            Dictionary dictionary = new ObjectMapper().readValue(json, Dictionary.class);
-            return dictionary;
-        } catch (Exception e) {
-            return null;
-        }
-
     }
 }
