@@ -2,6 +2,7 @@ package ch.schulerhome.atelier20_21;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.view.MenuItem;
 import android.view.View;
 import android.widget.LinearLayout;
 import android.widget.TextView;
@@ -24,6 +25,22 @@ public class ResultActivity extends AppCompatActivity {
         LinearLayout linearLayout = findViewById(R.id.resultView);
 
         Toolbar toolbar = findViewById(R.id.toolbar2);
+        toolbar.inflateMenu(R.menu.menu);
+        toolbar.setOnMenuItemClickListener(new Toolbar.OnMenuItemClickListener() {
+
+            @Override
+            public boolean onMenuItemClick(MenuItem item) {
+
+                switch (item.getItemId()) {
+                    case R.id.action_restart:
+                        restart();
+                        return true;
+                    default:
+                        return false;
+                }
+            }
+        });
+
         toolbar.setTitle("Atelier");
         for (String name : itemNames) {
             CardView cardView = new CardView(this);
@@ -37,11 +54,19 @@ public class ResultActivity extends AppCompatActivity {
             cardView.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View view) {
-                    /*Intent intent = new Intent(activity, SingleViewActivity.class);
-                    startActivity(intent);*/
+                    /*
+                    Intent intent = new Intent(activity, SingleViewActivity.class);
+                    startActivity(intent);
+                    */
                 }
             });
             linearLayout.addView(cardView);
         }
+
+    }
+
+    public void restart() {
+        Intent myIntent = new Intent(this, MainActivity.class);
+        this.startActivity(myIntent);
     }
 }

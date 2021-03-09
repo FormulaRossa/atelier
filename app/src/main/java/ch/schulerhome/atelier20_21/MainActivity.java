@@ -10,6 +10,7 @@ import ch.schulerhome.atelier20_21.model.Item;
 import com.fasterxml.jackson.databind.ObjectMapper;
 
 import java.io.InputStream;
+import java.lang.reflect.Field;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -31,7 +32,9 @@ public class MainActivity extends AppCompatActivity {
 
     private Dictionary loadDictionary() {
         try {
-            InputStream in_s = getResources().openRawResource(R.raw.dictionary);
+            Field idField = R.raw.class.getDeclaredField("dictionary");
+            int id = idField.getInt(idField);
+            InputStream in_s = getResources().openRawResource(id);
             byte[] b = new byte[in_s.available()];
             in_s.read(b);
             String json = new String(b);
