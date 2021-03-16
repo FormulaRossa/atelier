@@ -18,27 +18,10 @@
         {
           "feature": "berry",
           "value": "Nein"
-        }
-      ]
-    },
-    {
-      "name": "Erdbeere",
-      "properties": [
-        {
-          "feature": "surface",
-          "value": "Nein"
         },
         {
-          "feature": "color",
-          "value": "Rot"
-        },
-        {
-          "feature": "ball",
-          "value": "Nein"
-        },
-        {
-          "feature": "berry",
-          "value": "Ja"
+          "feature": "place",
+          "value": "Nordeuropa"
         }
       ]
     },
@@ -60,6 +43,10 @@
         {
           "feature": "berry",
           "value": "Nein"
+        },
+        {
+          "feature": "place",
+          "value": "Nordeuropa"
         }
       ]
     },
@@ -81,6 +68,10 @@
         {
           "feature": "berry",
           "value": "Nein"
+        },
+        {
+          "feature": "place",
+          "value": "S\u00fcdeuropa"
         }
       ]
     },
@@ -102,6 +93,10 @@
         {
           "feature": "berry",
           "value": "Nein"
+        },
+        {
+          "feature": "place",
+          "value": "Nordeuropa"
         }
       ]
     },
@@ -123,6 +118,10 @@
         {
           "feature": "berry",
           "value": "Nein"
+        },
+        {
+          "feature": "place",
+          "value": "Nordeuropa"
         }
       ]
     },
@@ -144,6 +143,10 @@
         {
           "feature": "berry",
           "value": "Nein"
+        },
+        {
+          "feature": "place",
+          "value": "\u00dcbersee"
         }
       ]
     },
@@ -165,6 +168,10 @@
         {
           "feature": "berry",
           "value": "Nein"
+        },
+        {
+          "feature": "place",
+          "value": "Nordeuropa"
         }
       ]
     },
@@ -186,6 +193,10 @@
         {
           "feature": "berry",
           "value": "Nein"
+        },
+        {
+          "feature": "place",
+          "value": "\u00dcbersee"
         }
       ]
     },
@@ -207,6 +218,10 @@
         {
           "feature": "berry",
           "value": "Nein"
+        },
+        {
+          "feature": "place",
+          "value": "\u00dcbersee"
         }
       ]
     },
@@ -228,6 +243,10 @@
         {
           "feature": "berry",
           "value": "Nein"
+        },
+        {
+          "feature": "place",
+          "value": "\u00dcbersee"
         }
       ]
     },
@@ -249,6 +268,10 @@
         {
           "feature": "berry",
           "value": "Nein"
+        },
+        {
+          "feature": "place",
+          "value": "\u00dcbersee"
         }
       ]
     },
@@ -270,6 +293,10 @@
         {
           "feature": "berry",
           "value": "Nein"
+        },
+        {
+          "feature": "place",
+          "value": "S\u00fcdeuropa"
         }
       ]
     },
@@ -291,6 +318,10 @@
         {
           "feature": "berry",
           "value": "Nein"
+        },
+        {
+          "feature": "place",
+          "value": "\u00dcbersee"
         }
       ]
     },
@@ -312,6 +343,10 @@
         {
           "feature": "berry",
           "value": "Nein"
+        },
+        {
+          "feature": "place",
+          "value": "Nordeuropa"
         }
       ]
     },
@@ -333,6 +368,14 @@
         {
           "feature": "berry",
           "value": "Ja"
+        },
+        {
+          "feature": "europe",
+          "value": "Ja"
+        },
+        {
+          "feature": "place",
+          "value": "Nordeuropa"
         }
       ]
     },
@@ -354,6 +397,10 @@
         {
           "feature": "berry",
           "value": "Ja"
+        },
+        {
+          "feature": "place",
+          "value": "Nordeuropa"
         }
       ]
     },
@@ -375,6 +422,10 @@
         {
           "feature": "berry",
           "value": "Ja"
+        },
+        {
+          "feature": "place",
+          "value": "Nordeuropa"
         }
       ]
     },
@@ -396,6 +447,610 @@
         {
           "feature": "berry",
           "value": "Ja"
+        },
+        {
+          "feature": "place",
+          "value": "Nordeuropa"
+        }
+      ]
+    },
+    {
+      "name": "Granatapfel",
+      "properties": [
+        {
+          "feature": "surface",
+          "value": "Nein"
+        },
+        {
+          "feature": "color",
+          "value": "Rot"
+        },
+        {
+          "feature": "ball",
+          "value": "Nein"
+        },
+        {
+          "feature": "berry",
+          "value": "Nein"
+        },
+        {
+          "feature": "place",
+          "value": "\u00dcbersee"
+        }
+      ]
+    },
+    {
+      "name": "Zwetschge",
+      "properties": [
+        {
+          "feature": "surface",
+          "value": "Ja"
+        },
+        {
+          "feature": "color",
+          "value": "Blau"
+        },
+        {
+          "feature": "ball",
+          "value": "Ja"
+        },
+        {
+          "feature": "berry",
+          "value": "Nein"
+        },
+        {
+          "feature": "place",
+          "value": "Nordeuropa"
+        }
+      ]
+    },
+    {
+      "name": "Grapefruit",
+      "properties": [
+        {
+          "feature": "surface",
+          "value": "Nein"
+        },
+        {
+          "feature": "color",
+          "value": "Gelb"
+        },
+        {
+          "feature": "ball",
+          "value": "Ja"
+        },
+        {
+          "feature": "berry",
+          "value": "Nein"
+        },
+        {
+          "feature": "place",
+          "value": "\u00dcbersee"
+        }
+      ]
+    },
+    {
+      "name": "Hagebutte",
+      "properties": [
+        {
+          "feature": "surface",
+          "value": "Ja"
+        },
+        {
+          "feature": "color",
+          "value": "Rot"
+        },
+        {
+          "feature": "ball",
+          "value": "Nein"
+        },
+        {
+          "feature": "berry",
+          "value": "Nein"
+        },
+        {
+          "feature": "place",
+          "value": "Nordeuropa"
+        }
+      ]
+    },
+    {
+      "name": "Holunderbeere",
+      "properties": [
+        {
+          "feature": "surface",
+          "value": "Ja"
+        },
+        {
+          "feature": "color",
+          "value": "Schwarz"
+        },
+        {
+          "feature": "ball",
+          "value": "Ja"
+        },
+        {
+          "feature": "berry",
+          "value": "Ja"
+        },
+        {
+          "feature": "place",
+          "value": "Nordeuropa"
+        }
+      ]
+    },
+    {
+      "name": "Johannisbeere",
+      "properties": [
+        {
+          "feature": "surface",
+          "value": "Ja"
+        },
+        {
+          "feature": "color",
+          "value": "Rot"
+        },
+        {
+          "feature": "ball",
+          "value": "Ja"
+        },
+        {
+          "feature": "berry",
+          "value": "Ja"
+        },
+        {
+          "feature": "place",
+          "value": "Nordeuropa"
+        }
+      ]
+    },
+    {
+      "name": "Limette",
+      "properties": [
+        {
+          "feature": "surface",
+          "value": "Nein"
+        },
+        {
+          "feature": "color",
+          "value": "Gr\u00fcn"
+        },
+        {
+          "feature": "ball",
+          "value": "Ja"
+        },
+        {
+          "feature": "berry",
+          "value": "Nein"
+        },
+        {
+          "feature": "place",
+          "value": "Nordeuropa"
+        }
+      ]
+    },
+    {
+      "name": "Litschi",
+      "properties": [
+        {
+          "feature": "surface",
+          "value": "Nein"
+        },
+        {
+          "feature": "color",
+          "value": "Rot"
+        },
+        {
+          "feature": "ball",
+          "value": "Nein"
+        },
+        {
+          "feature": "berry",
+          "value": "Nein"
+        },
+        {
+          "feature": "place",
+          "value": "\u00dcbersee"
+        }
+      ]
+    },
+    {
+      "name": "Mandarine",
+      "properties": [
+        {
+          "feature": "surface",
+          "value": "Nein"
+        },
+        {
+          "feature": "color",
+          "value": "Orange"
+        },
+        {
+          "feature": "ball",
+          "value": "Ja"
+        },
+        {
+          "feature": "berry",
+          "value": "Nein"
+        },
+        {
+          "feature": "place",
+          "value": "S\u00fcdeuropa"
+        }
+      ]
+    },
+    {
+      "name": "Mirabelle",
+      "properties": [
+        {
+          "feature": "surface",
+          "value": "Ja"
+        },
+        {
+          "feature": "color",
+          "value": "Gelb"
+        },
+        {
+          "feature": "ball",
+          "value": "Ja"
+        },
+        {
+          "feature": "berry",
+          "value": "Nein"
+        },
+        {
+          "feature": "place",
+          "value": "Nordeuropa"
+        }
+      ]
+    },
+    {
+      "name": "Papaya",
+      "properties": [
+        {
+          "feature": "surface",
+          "value": "Ja"
+        },
+        {
+          "feature": "color",
+          "value": "Gr\u00fcn"
+        },
+        {
+          "feature": "ball",
+          "value": "Nein"
+        },
+        {
+          "feature": "berry",
+          "value": "Nein"
+        },
+        {
+          "feature": "place",
+          "value": "\u00dcbersee"
+        }
+      ]
+    },
+    {
+      "name": "Physalis",
+      "properties": [
+        {
+          "feature": "surface",
+          "value": "Ja"
+        },
+        {
+          "feature": "color",
+          "value": "Gelb"
+        },
+        {
+          "feature": "ball",
+          "value": "Ja"
+        },
+        {
+          "feature": "berry",
+          "value": "Ja"
+        },
+        {
+          "feature": "place",
+          "value": "Nordeuropa"
+        }
+      ]
+    },
+    {
+      "name": "Preiselbeere",
+      "properties": [
+        {
+          "feature": "surface",
+          "value": "Ja"
+        },
+        {
+          "feature": "color",
+          "value": "Rot"
+        },
+        {
+          "feature": "ball",
+          "value": "Ja"
+        },
+        {
+          "feature": "berry",
+          "value": "Ja"
+        },
+        {
+          "feature": "place",
+          "value": "Nordeuropa"
+        }
+      ]
+    },
+    {
+      "name": "Quitte",
+      "properties": [
+        {
+          "feature": "surface",
+          "value": "Nein"
+        },
+        {
+          "feature": "color",
+          "value": "Gelb"
+        },
+        {
+          "feature": "ball",
+          "value": "Nein"
+        },
+        {
+          "feature": "berry",
+          "value": "Nein"
+        },
+        {
+          "feature": "place",
+          "value": "Nordeuropa"
+        }
+      ]
+    },
+    {
+      "name": "Rhabarber",
+      "properties": [
+        {
+          "feature": "surface",
+          "value": "Nein"
+        },
+        {
+          "feature": "color",
+          "value": "Rot"
+        },
+        {
+          "feature": "ball",
+          "value": "Nein"
+        },
+        {
+          "feature": "berry",
+          "value": "Nein"
+        },
+        {
+          "feature": "place",
+          "value": "Nordeuropa"
+        }
+      ]
+    },
+    {
+      "name": "Sanddorn",
+      "properties": [
+        {
+          "feature": "surface",
+          "value": "Ja"
+        },
+        {
+          "feature": "color",
+          "value": "Orange"
+        },
+        {
+          "feature": "ball",
+          "value": "Ja"
+        },
+        {
+          "feature": "berry",
+          "value": "Ja"
+        },
+        {
+          "feature": "place",
+          "value": "Nordeuropa"
+        }
+      ]
+    },
+    {
+      "name": "Stachelbeere",
+      "properties": [
+        {
+          "feature": "surface",
+          "value": "Ja"
+        },
+        {
+          "feature": "color",
+          "value": "Gr\u00fcn"
+        },
+        {
+          "feature": "ball",
+          "value": "Ja"
+        },
+        {
+          "feature": "berry",
+          "value": "Ja"
+        },
+        {
+          "feature": "place",
+          "value": "Nordeuropa"
+        }
+      ]
+    },
+    {
+      "name": "Zitrone",
+      "properties": [
+        {
+          "feature": "surface",
+          "value": "Nein"
+        },
+        {
+          "feature": "color",
+          "value": "Gelb"
+        },
+        {
+          "feature": "ball",
+          "value": "Ja"
+        },
+        {
+          "feature": "berry",
+          "value": "Nein"
+        },
+        {
+          "feature": "place",
+          "value": "S\u00fcdeuropa"
+        }
+      ]
+    },
+    {
+      "name": "Weintraube",
+      "properties": [
+        {
+          "feature": "surface",
+          "value": "Ja"
+        },
+        {
+          "feature": "color",
+          "value": "Violett"
+        },
+        {
+          "feature": "ball",
+          "value": "Ja"
+        },
+        {
+          "feature": "berry",
+          "value": "Ja"
+        },
+        {
+          "feature": "place",
+          "value": "Nordeuropa"
+        }
+      ]
+    },
+    {
+      "name": "Avocado",
+      "properties": [
+        {
+          "feature": "surface",
+          "value": "Nein"
+        },
+        {
+          "feature": "color",
+          "value": "Gr\u00fcn"
+        },
+        {
+          "feature": "ball",
+          "value": "Nein"
+        },
+        {
+          "feature": "berry",
+          "value": "Ja"
+        },
+        {
+          "feature": "place",
+          "value": "\u00dcbersee"
+        }
+      ]
+    },
+    {
+      "name": "Guave",
+      "properties": [
+        {
+          "feature": "surface",
+          "value": "Nein"
+        },
+        {
+          "feature": "color",
+          "value": "Gr\u00fcn"
+        },
+        {
+          "feature": "ball",
+          "value": "Ja"
+        },
+        {
+          "feature": "berry",
+          "value": "Ja"
+        },
+        {
+          "feature": "place",
+          "value": "\u00dcbersee"
+        }
+      ]
+    },
+    {
+      "name": "K\u00fcrbis",
+      "properties": [
+        {
+          "feature": "surface",
+          "value": "Ja"
+        },
+        {
+          "feature": "color",
+          "value": "Orange"
+        },
+        {
+          "feature": "ball",
+          "value": "Ja"
+        },
+        {
+          "feature": "berry",
+          "value": "Nein"
+        },
+        {
+          "feature": "place",
+          "value": "Nordeuropa"
+        }
+      ]
+    },
+    {
+      "name": "Olive",
+      "properties": [
+        {
+          "feature": "surface",
+          "value": "Ja"
+        },
+        {
+          "feature": "color",
+          "value": "Gr\u00fcn"
+        },
+        {
+          "feature": "ball",
+          "value": "Ja"
+        },
+        {
+          "feature": "berry",
+          "value": "Nein"
+        },
+        {
+          "feature": "place",
+          "value": "S\u00fcdeuropa"
+        }
+      ]
+    },
+    {
+      "name": "Drachenfrucht",
+      "properties": [
+        {
+          "feature": "surface",
+          "value": "Nein"
+        },
+        {
+          "feature": "color",
+          "value": "Rot"
+        },
+        {
+          "feature": "ball",
+          "value": "Nein"
+        },
+        {
+          "feature": "berry",
+          "value": "Nein"
+        },
+        {
+          "feature": "place",
+          "value": "\u00dcbersee"
         }
       ]
     }
@@ -410,12 +1065,16 @@
       "feature": "color"
     },
     {
-      "question": "Ist die Frucht kugelf\u00f6rmig?",
+      "question": "Ist die Frucht Kugelf\u00f6rmig?",
       "feature": "ball"
     },
     {
       "question": "Ist die Frucht eine Beere?",
       "feature": "berry"
+    },
+    {
+      "question": "Wo w\u00e4chst die Frucht?",
+      "feature": "place"
     }
   ]
 }
