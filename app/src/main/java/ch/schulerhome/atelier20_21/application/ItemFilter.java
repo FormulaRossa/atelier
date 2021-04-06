@@ -16,7 +16,7 @@ public class ItemFilter {
 
         for (Item item : items) {
             Property property = item.findPropertyByFeature(answer.feature);
-            if (!(property.value.equals(answer.answer))) {
+            if (!(property.value.contains(answer.answer))) {
                 result.remove(item);
             }
         }

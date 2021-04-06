@@ -21,6 +21,6 @@ public class ItemResponder implements Responder {
         System.out.println("Question: " + question.question);
         Property property = item.findPropertyByFeature(question.feature);
         System.out.println("Answer: " + property.value);
-        callback.select(new Answer(property.value, property.feature));
+        callback.select(new Answer(property.value.iterator().next(), property.feature));
     }
 }

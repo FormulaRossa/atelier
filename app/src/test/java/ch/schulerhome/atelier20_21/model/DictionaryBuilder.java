@@ -1,7 +1,9 @@
 package ch.schulerhome.atelier20_21.model;
 
 import java.util.ArrayList;
+import java.util.HashSet;
 import java.util.List;
+import java.util.Set;
 
 public class DictionaryBuilder {
 
@@ -25,7 +27,9 @@ public class DictionaryBuilder {
     private static List<Property> propertiesOf(String... names) {
         List<Property> properties = new ArrayList<>();
         for (int i = 0; i < names.length; i += 2) {
-            properties.add(new Property(names[i], names[i + 1]));
+            Set<String> values = new HashSet();
+            values.add(names[i + 1]);
+            properties.add(new Property(names[i], values));
         }
         return properties;
     }
