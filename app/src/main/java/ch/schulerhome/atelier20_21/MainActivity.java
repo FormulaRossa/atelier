@@ -27,12 +27,15 @@ public class MainActivity extends AppCompatActivity {
         Toolbar toolbar = findViewById(R.id.toolbar);
         toolbar.setTitle("Atelier");
 
-        start();
+        Intent intent = getIntent();
+        String name = intent.getStringExtra(StartActivity.EXTRA_MESSAGE);
+
+        start(name);
     }
 
-    private Dictionary loadDictionary() {
+    private Dictionary loadDictionary(String name) {
         try {
-            Field idField = R.raw.class.getDeclaredField("dictionary");
+            Field idField = R.raw.class.getDeclaredField(name);
             int id = idField.getInt(idField);
             InputStream in_s = getResources().openRawResource(id);
             byte[] b = new byte[in_s.available()];
@@ -47,9 +50,9 @@ public class MainActivity extends AppCompatActivity {
 
     }
 
-    public void start() {
+    public void start(String name) {
         final MainActivity activity = this;
-        dictionary = loadDictionary();
+        dictionary = loadDictionary(name);
         Responder responder = new InteractiveResponder(this);
         QuestionSelector questionSelector = new BestMatchQuestionSelector();
         SolutionFinder solutionFinder = new SolutionFinder(questionSelector, responder);

@@ -24,7 +24,7 @@ public class ResultActivity extends AppCompatActivity {
         final ArrayList<String> itemNames = (ArrayList<String>) intent.getSerializableExtra(EXTRA_MESSAGE);
         LinearLayout linearLayout = findViewById(R.id.resultView);
 
-        Toolbar toolbar = findViewById(R.id.toolbar2);
+        Toolbar toolbar = findViewById(R.id.toolbar);
         toolbar.inflateMenu(R.menu.menu);
         toolbar.setOnMenuItemClickListener(new Toolbar.OnMenuItemClickListener() {
 
@@ -66,7 +66,7 @@ public class ResultActivity extends AppCompatActivity {
     }
 
     public void restart() {
-        Intent myIntent = new Intent(this, MainActivity.class);
+        Intent myIntent = new Intent(this, StartActivity.class);
         this.startActivity(myIntent);
     }
 }

@@ -5,23 +5,35 @@
       "properties": [
         {
           "feature": "surface",
-          "value": "Ja"
+          "value": [
+            "Ja"
+          ]
         },
         {
           "feature": "color",
-          "value": "Gr\u00fcn"
+          "value": [
+            "Gr\u00fcn",
+            "Rot",
+            "Gelb"
+          ]
         },
         {
           "feature": "ball",
-          "value": "Ja"
+          "value": [
+            "Ja"
+          ]
         },
         {
           "feature": "berry",
-          "value": "Nein"
+          "value": [
+            "Nein"
+          ]
         },
         {
           "feature": "place",
-          "value": "Nordeuropa"
+          "value": [
+            "Nordeuropa"
+          ]
         }
       ]
     },
@@ -30,23 +42,34 @@
       "properties": [
         {
           "feature": "surface",
-          "value": "Nein"
+          "value": [
+            "Nein"
+          ]
         },
         {
           "feature": "color",
-          "value": "Braun"
+          "value": [
+            "Braun",
+            "Grün"
+          ]
         },
         {
           "feature": "ball",
-          "value": "Nein"
+          "value": [
+            "Nein"
+          ]
         },
         {
           "feature": "berry",
-          "value": "Nein"
+          "value": [
+            "Nein"
+          ]
         },
         {
           "feature": "place",
-          "value": "Nordeuropa"
+          "value": [
+            "Nordeuropa"
+          ]
         }
       ]
     },
@@ -55,23 +78,33 @@
       "properties": [
         {
           "feature": "surface",
-          "value": "Nein"
+          "value": [
+            "Nein"
+          ]
         },
         {
           "feature": "color",
-          "value": "Orange"
+          "value": [
+            "Orange"
+          ]
         },
         {
           "feature": "ball",
-          "value": "Ja"
+          "value": [
+            "Ja"
+          ]
         },
         {
           "feature": "berry",
-          "value": "Nein"
+          "value": [
+            "Nein"
+          ]
         },
         {
           "feature": "place",
-          "value": "S\u00fcdeuropa"
+          "value": [
+            "S\u00fcdeuropa"
+          ]
         }
       ]
     },
@@ -80,23 +113,33 @@
       "properties": [
         {
           "feature": "surface",
-          "value": "Nein"
+          "value": [
+            "Nein"
+          ]
         },
         {
           "feature": "color",
-          "value": "Braun"
+          "value": [
+            "Braun"
+          ]
         },
         {
           "feature": "ball",
-          "value": "Ja"
+          "value": [
+            "Ja"
+          ]
         },
         {
           "feature": "berry",
-          "value": "Nein"
+          "value": [
+            "Nein"
+          ]
         },
         {
           "feature": "place",
-          "value": "Nordeuropa"
+          "value": [
+            "Nordeuropa"
+          ]
         }
       ]
     },
@@ -105,23 +148,34 @@
       "properties": [
         {
           "feature": "surface",
-          "value": "Ja"
+          "value": [
+            "Ja"
+          ]
         },
         {
           "feature": "color",
-          "value": "Gr\u00fcn"
+          "value": [
+            "Gr\u00fcn",
+            "Schwarz"
+          ]
         },
         {
           "feature": "ball",
-          "value": "Ja"
+          "value": [
+            "Ja"
+          ]
         },
         {
           "feature": "berry",
-          "value": "Nein"
+          "value": [
+            "Nein"
+          ]
         },
         {
           "feature": "place",
-          "value": "Nordeuropa"
+          "value": [
+            "Nordeuropa"
+          ]
         }
       ]
     },
@@ -130,23 +184,34 @@
       "properties": [
         {
           "feature": "surface",
-          "value": "Nein"
+          "value": [
+            "Nein"
+          ]
         },
         {
           "feature": "color",
-          "value": "Braun"
+          "value": [
+            "Braun",
+            "Gelb"
+          ]
         },
         {
           "feature": "ball",
-          "value": "Nein"
+          "value": [
+            "Nein"
+          ]
         },
         {
           "feature": "berry",
-          "value": "Nein"
+          "value": [
+            "Nein"
+          ]
         },
         {
           "feature": "place",
-          "value": "\u00dcbersee"
+          "value": [
+            "\u00dcbersee"
+          ]
         }
       ]
     },
@@ -155,23 +220,33 @@
       "properties": [
         {
           "feature": "surface",
-          "value": "Ja"
+          "value": [
+            "Ja"
+          ]
         },
         {
           "feature": "color",
-          "value": "Orange"
+          "value": [
+            "Orange"
+          ]
         },
         {
           "feature": "ball",
-          "value": "Ja"
+          "value": [
+            "Ja"
+          ]
         },
         {
           "feature": "berry",
-          "value": "Nein"
+          "value": [
+            "Nein"
+          ]
         },
         {
           "feature": "place",
-          "value": "Nordeuropa"
+          "value": [
+            "Nordeuropa"
+          ]
         }
       ]
     },
@@ -180,23 +255,33 @@
       "properties": [
         {
           "feature": "surface",
-          "value": "Ja"
+          "value": [
+            "Ja"
+          ]
         },
         {
           "feature": "color",
-          "value": "Gelb"
+          "value": [
+            "Gelb"
+          ]
         },
         {
           "feature": "ball",
-          "value": "Nein"
+          "value": [
+            "Nein"
+          ]
         },
         {
           "feature": "berry",
-          "value": "Nein"
+          "value": [
+            "Nein"
+          ]
         },
         {
           "feature": "place",
-          "value": "\u00dcbersee"
+          "value": [
+            "\u00dcbersee"
+          ]
         }
       ]
     },
@@ -205,23 +290,35 @@
       "properties": [
         {
           "feature": "surface",
-          "value": "Ja"
+          "value": [
+            "Ja"
+          ]
         },
         {
           "feature": "color",
-          "value": "Orange"
+          "value": [
+            "Orange",
+            "Rot",
+            "Grün"
+          ]
         },
         {
           "feature": "ball",
-          "value": "Nein"
+          "value": [
+            "Nein"
+          ]
         },
         {
           "feature": "berry",
-          "value": "Nein"
+          "value": [
+            "Nein"
+          ]
         },
         {
           "feature": "place",
-          "value": "\u00dcbersee"
+          "value": [
+            "\u00dcbersee"
+          ]
         }
       ]
     },
@@ -230,23 +327,33 @@
       "properties": [
         {
           "feature": "surface",
-          "value": "Nein"
+          "value": [
+            "Nein"
+          ]
         },
         {
           "feature": "color",
-          "value": "Braun"
+          "value": [
+            "Braun"
+          ]
         },
         {
           "feature": "ball",
-          "value": "Ja"
+          "value": [
+            "Ja"
+          ]
         },
         {
           "feature": "berry",
-          "value": "Nein"
+          "value": [
+            "Nein"
+          ]
         },
         {
           "feature": "place",
-          "value": "\u00dcbersee"
+          "value": [
+            "\u00dcbersee"
+          ]
         }
       ]
     },
@@ -255,23 +362,33 @@
       "properties": [
         {
           "feature": "surface",
-          "value": "Ja"
+          "value": [
+            "Ja"
+          ]
         },
         {
           "feature": "color",
-          "value": "Gr\u00fcn"
+          "value": [
+            "Gr\u00fcn"
+          ]
         },
         {
           "feature": "ball",
-          "value": "Ja"
+          "value": [
+            "Ja"
+          ]
         },
         {
           "feature": "berry",
-          "value": "Nein"
+          "value": [
+            "Nein"
+          ]
         },
         {
           "feature": "place",
-          "value": "\u00dcbersee"
+          "value": [
+            "\u00dcbersee"
+          ]
         }
       ]
     },
@@ -280,23 +397,33 @@
       "properties": [
         {
           "feature": "surface",
-          "value": "Ja"
+          "value": [
+            "Ja"
+          ]
         },
         {
           "feature": "color",
-          "value": "Orange"
+          "value": [
+            "Orange"
+          ]
         },
         {
           "feature": "ball",
-          "value": "Ja"
+          "value": [
+            "Ja"
+          ]
         },
         {
           "feature": "berry",
-          "value": "Nein"
+          "value": [
+            "Nein"
+          ]
         },
         {
           "feature": "place",
-          "value": "S\u00fcdeuropa"
+          "value": [
+            "S\u00fcdeuropa"
+          ]
         }
       ]
     },
@@ -305,23 +432,33 @@
       "properties": [
         {
           "feature": "surface",
-          "value": "Nein"
+          "value": [
+            "Nein"
+          ]
         },
         {
           "feature": "color",
-          "value": "Braun"
+          "value": [
+            "Braun"
+          ]
         },
         {
           "feature": "ball",
-          "value": "Nein"
+          "value": [
+            "Nein"
+          ]
         },
         {
           "feature": "berry",
-          "value": "Nein"
+          "value": [
+            "Nein"
+          ]
         },
         {
           "feature": "place",
-          "value": "\u00dcbersee"
+          "value": [
+            "\u00dcbersee"
+          ]
         }
       ]
     },
@@ -330,23 +467,33 @@
       "properties": [
         {
           "feature": "surface",
-          "value": "Nein"
+          "value": [
+            "Nein"
+          ]
         },
         {
           "feature": "color",
-          "value": "Braun"
+          "value": [
+            "Braun"
+          ]
         },
         {
           "feature": "ball",
-          "value": "Nein"
+          "value": [
+            "Nein"
+          ]
         },
         {
           "feature": "berry",
-          "value": "Nein"
+          "value": [
+            "Nein"
+          ]
         },
         {
           "feature": "place",
-          "value": "Nordeuropa"
+          "value": [
+            "Nordeuropa"
+          ]
         }
       ]
     },
@@ -355,27 +502,39 @@
       "properties": [
         {
           "feature": "surface",
-          "value": "Nein"
+          "value": [
+            "Nein"
+          ]
         },
         {
           "feature": "color",
-          "value": "Schwarz"
+          "value": [
+            "Schwarz"
+          ]
         },
         {
           "feature": "ball",
-          "value": "Ja"
+          "value": [
+            "Ja"
+          ]
         },
         {
           "feature": "berry",
-          "value": "Ja"
+          "value": [
+            "Ja"
+          ]
         },
         {
           "feature": "europe",
-          "value": "Ja"
+          "value": [
+            "Ja"
+          ]
         },
         {
           "feature": "place",
-          "value": "Nordeuropa"
+          "value": [
+            "Nordeuropa"
+          ]
         }
       ]
     },
@@ -384,23 +543,33 @@
       "properties": [
         {
           "feature": "surface",
-          "value": "Ja"
+          "value": [
+            "Ja"
+          ]
         },
         {
           "feature": "color",
-          "value": "Blau"
+          "value": [
+            "Blau"
+          ]
         },
         {
           "feature": "ball",
-          "value": "Ja"
+          "value": [
+            "Ja"
+          ]
         },
         {
           "feature": "berry",
-          "value": "Ja"
+          "value": [
+            "Ja"
+          ]
         },
         {
           "feature": "place",
-          "value": "Nordeuropa"
+          "value": [
+            "Nordeuropa"
+          ]
         }
       ]
     },
@@ -409,23 +578,33 @@
       "properties": [
         {
           "feature": "surface",
-          "value": "Nein"
+          "value": [
+            "Nein"
+          ]
         },
         {
           "feature": "color",
-          "value": "Rot"
+          "value": [
+            "Rot"
+          ]
         },
         {
           "feature": "ball",
-          "value": "Ja"
+          "value": [
+            "Ja"
+          ]
         },
         {
           "feature": "berry",
-          "value": "Ja"
+          "value": [
+            "Ja"
+          ]
         },
         {
           "feature": "place",
-          "value": "Nordeuropa"
+          "value": [
+            "Nordeuropa"
+          ]
         }
       ]
     },
@@ -434,23 +613,33 @@
       "properties": [
         {
           "feature": "surface",
-          "value": "Ja"
+          "value": [
+            "Ja"
+          ]
         },
         {
           "feature": "color",
-          "value": "Rot"
+          "value": [
+            "Rot"
+          ]
         },
         {
           "feature": "ball",
-          "value": "Ja"
+          "value": [
+            "Ja"
+          ]
         },
         {
           "feature": "berry",
-          "value": "Ja"
+          "value": [
+            "Ja"
+          ]
         },
         {
           "feature": "place",
-          "value": "Nordeuropa"
+          "value": [
+            "Nordeuropa"
+          ]
         }
       ]
     },
@@ -459,23 +648,34 @@
       "properties": [
         {
           "feature": "surface",
-          "value": "Nein"
+          "value": [
+            "Nein"
+          ]
         },
         {
           "feature": "color",
-          "value": "Rot"
+          "value": [
+            "Rot",
+            "Braun"
+          ]
         },
         {
           "feature": "ball",
-          "value": "Nein"
+          "value": [
+            "Nein"
+          ]
         },
         {
           "feature": "berry",
-          "value": "Nein"
+          "value": [
+            "Nein"
+          ]
         },
         {
           "feature": "place",
-          "value": "\u00dcbersee"
+          "value": [
+            "\u00dcbersee"
+          ]
         }
       ]
     },
@@ -484,23 +684,33 @@
       "properties": [
         {
           "feature": "surface",
-          "value": "Ja"
+          "value": [
+            "Ja"
+          ]
         },
         {
           "feature": "color",
-          "value": "Blau"
+          "value": [
+            "Blau"
+          ]
         },
         {
           "feature": "ball",
-          "value": "Ja"
+          "value": [
+            "Ja"
+          ]
         },
         {
           "feature": "berry",
-          "value": "Nein"
+          "value": [
+            "Nein"
+          ]
         },
         {
           "feature": "place",
-          "value": "Nordeuropa"
+          "value": [
+            "Nordeuropa"
+          ]
         }
       ]
     },
@@ -509,23 +719,33 @@
       "properties": [
         {
           "feature": "surface",
-          "value": "Nein"
+          "value": [
+            "Nein"
+          ]
         },
         {
           "feature": "color",
-          "value": "Gelb"
+          "value": [
+            "Gelb"
+          ]
         },
         {
           "feature": "ball",
-          "value": "Ja"
+          "value": [
+            "Ja"
+          ]
         },
         {
           "feature": "berry",
-          "value": "Nein"
+          "value": [
+            "Nein"
+          ]
         },
         {
           "feature": "place",
-          "value": "\u00dcbersee"
+          "value": [
+            "\u00dcbersee"
+          ]
         }
       ]
     },
@@ -534,23 +754,33 @@
       "properties": [
         {
           "feature": "surface",
-          "value": "Ja"
+          "value": [
+            "Ja"
+          ]
         },
         {
           "feature": "color",
-          "value": "Rot"
+          "value": [
+            "Rot"
+          ]
         },
         {
           "feature": "ball",
-          "value": "Nein"
+          "value": [
+            "Nein"
+          ]
         },
         {
           "feature": "berry",
-          "value": "Nein"
+          "value": [
+            "Nein"
+          ]
         },
         {
           "feature": "place",
-          "value": "Nordeuropa"
+          "value": [
+            "Nordeuropa"
+          ]
         }
       ]
     },
@@ -559,23 +789,33 @@
       "properties": [
         {
           "feature": "surface",
-          "value": "Ja"
+          "value": [
+            "Ja"
+          ]
         },
         {
           "feature": "color",
-          "value": "Schwarz"
+          "value": [
+            "Schwarz"
+          ]
         },
         {
           "feature": "ball",
-          "value": "Ja"
+          "value": [
+            "Ja"
+          ]
         },
         {
           "feature": "berry",
-          "value": "Ja"
+          "value": [
+            "Ja"
+          ]
         },
         {
           "feature": "place",
-          "value": "Nordeuropa"
+          "value": [
+            "Nordeuropa"
+          ]
         }
       ]
     },
@@ -584,23 +824,33 @@
       "properties": [
         {
           "feature": "surface",
-          "value": "Ja"
+          "value": [
+            "Ja"
+          ]
         },
         {
           "feature": "color",
-          "value": "Rot"
+          "value": [
+            "Rot"
+          ]
         },
         {
           "feature": "ball",
-          "value": "Ja"
+          "value": [
+            "Ja"
+          ]
         },
         {
           "feature": "berry",
-          "value": "Ja"
+          "value": [
+            "Ja"
+          ]
         },
         {
           "feature": "place",
-          "value": "Nordeuropa"
+          "value": [
+            "Nordeuropa"
+          ]
         }
       ]
     },
@@ -609,23 +859,33 @@
       "properties": [
         {
           "feature": "surface",
-          "value": "Nein"
+          "value": [
+            "Nein"
+          ]
         },
         {
           "feature": "color",
-          "value": "Gr\u00fcn"
+          "value": [
+            "Gr\u00fcn"
+          ]
         },
         {
           "feature": "ball",
-          "value": "Ja"
+          "value": [
+            "Ja"
+          ]
         },
         {
           "feature": "berry",
-          "value": "Nein"
+          "value": [
+            "Nein"
+          ]
         },
         {
           "feature": "place",
-          "value": "Nordeuropa"
+          "value": [
+            "Nordeuropa"
+          ]
         }
       ]
     },
@@ -634,23 +894,33 @@
       "properties": [
         {
           "feature": "surface",
-          "value": "Nein"
+          "value": [
+            "Nein"
+          ]
         },
         {
           "feature": "color",
-          "value": "Rot"
+          "value": [
+            "Rot"
+          ]
         },
         {
           "feature": "ball",
-          "value": "Nein"
+          "value": [
+            "Nein"
+          ]
         },
         {
           "feature": "berry",
-          "value": "Nein"
+          "value": [
+            "Nein"
+          ]
         },
         {
           "feature": "place",
-          "value": "\u00dcbersee"
+          "value": [
+            "\u00dcbersee"
+          ]
         }
       ]
     },
@@ -659,23 +929,33 @@
       "properties": [
         {
           "feature": "surface",
-          "value": "Nein"
+          "value": [
+            "Nein"
+          ]
         },
         {
           "feature": "color",
-          "value": "Orange"
+          "value": [
+            "Orange"
+          ]
         },
         {
           "feature": "ball",
-          "value": "Ja"
+          "value": [
+            "Ja"
+          ]
         },
         {
           "feature": "berry",
-          "value": "Nein"
+          "value": [
+            "Nein"
+          ]
         },
         {
           "feature": "place",
-          "value": "S\u00fcdeuropa"
+          "value": [
+            "S\u00fcdeuropa"
+          ]
         }
       ]
     },
@@ -684,23 +964,33 @@
       "properties": [
         {
           "feature": "surface",
-          "value": "Ja"
+          "value": [
+            "Ja"
+          ]
         },
         {
           "feature": "color",
-          "value": "Gelb"
+          "value": [
+            "Gelb"
+          ]
         },
         {
           "feature": "ball",
-          "value": "Ja"
+          "value": [
+            "Ja"
+          ]
         },
         {
           "feature": "berry",
-          "value": "Nein"
+          "value": [
+            "Nein"
+          ]
         },
         {
           "feature": "place",
-          "value": "Nordeuropa"
+          "value": [
+            "Nordeuropa"
+          ]
         }
       ]
     },
@@ -709,23 +999,33 @@
       "properties": [
         {
           "feature": "surface",
-          "value": "Ja"
+          "value": [
+            "Ja"
+          ]
         },
         {
           "feature": "color",
-          "value": "Gr\u00fcn"
+          "value": [
+            "Gr\u00fcn"
+          ]
         },
         {
           "feature": "ball",
-          "value": "Nein"
+          "value": [
+            "Nein"
+          ]
         },
         {
           "feature": "berry",
-          "value": "Nein"
+          "value": [
+            "Nein"
+          ]
         },
         {
           "feature": "place",
-          "value": "\u00dcbersee"
+          "value": [
+            "\u00dcbersee"
+          ]
         }
       ]
     },
@@ -734,23 +1034,33 @@
       "properties": [
         {
           "feature": "surface",
-          "value": "Ja"
+          "value": [
+            "Ja"
+          ]
         },
         {
           "feature": "color",
-          "value": "Gelb"
+          "value": [
+            "Gelb"
+          ]
         },
         {
           "feature": "ball",
-          "value": "Ja"
+          "value": [
+            "Ja"
+          ]
         },
         {
           "feature": "berry",
-          "value": "Ja"
+          "value": [
+            "Ja"
+          ]
         },
         {
           "feature": "place",
-          "value": "Nordeuropa"
+          "value": [
+            "Nordeuropa"
+          ]
         }
       ]
     },
@@ -759,23 +1069,33 @@
       "properties": [
         {
           "feature": "surface",
-          "value": "Ja"
+          "value": [
+            "Ja"
+          ]
         },
         {
           "feature": "color",
-          "value": "Rot"
+          "value": [
+            "Rot"
+          ]
         },
         {
           "feature": "ball",
-          "value": "Ja"
+          "value": [
+            "Ja"
+          ]
         },
         {
           "feature": "berry",
-          "value": "Ja"
+          "value": [
+            "Ja"
+          ]
         },
         {
           "feature": "place",
-          "value": "Nordeuropa"
+          "value": [
+            "Nordeuropa"
+          ]
         }
       ]
     },
@@ -784,23 +1104,33 @@
       "properties": [
         {
           "feature": "surface",
-          "value": "Nein"
+          "value": [
+            "Nein"
+          ]
         },
         {
           "feature": "color",
-          "value": "Gelb"
+          "value": [
+            "Gelb"
+          ]
         },
         {
           "feature": "ball",
-          "value": "Nein"
+          "value": [
+            "Nein"
+          ]
         },
         {
           "feature": "berry",
-          "value": "Nein"
+          "value": [
+            "Nein"
+          ]
         },
         {
           "feature": "place",
-          "value": "Nordeuropa"
+          "value": [
+            "Nordeuropa"
+          ]
         }
       ]
     },
@@ -809,23 +1139,33 @@
       "properties": [
         {
           "feature": "surface",
-          "value": "Nein"
+          "value": [
+            "Nein"
+          ]
         },
         {
           "feature": "color",
-          "value": "Rot"
+          "value": [
+            "Rot"
+          ]
         },
         {
           "feature": "ball",
-          "value": "Nein"
+          "value": [
+            "Nein"
+          ]
         },
         {
           "feature": "berry",
-          "value": "Nein"
+          "value": [
+            "Nein"
+          ]
         },
         {
           "feature": "place",
-          "value": "Nordeuropa"
+          "value": [
+            "Nordeuropa"
+          ]
         }
       ]
     },
@@ -834,23 +1174,33 @@
       "properties": [
         {
           "feature": "surface",
-          "value": "Ja"
+          "value": [
+            "Ja"
+          ]
         },
         {
           "feature": "color",
-          "value": "Orange"
+          "value": [
+            "Orange"
+          ]
         },
         {
           "feature": "ball",
-          "value": "Ja"
+          "value": [
+            "Ja"
+          ]
         },
         {
           "feature": "berry",
-          "value": "Ja"
+          "value": [
+            "Ja"
+          ]
         },
         {
           "feature": "place",
-          "value": "Nordeuropa"
+          "value": [
+            "Nordeuropa"
+          ]
         }
       ]
     },
@@ -859,23 +1209,33 @@
       "properties": [
         {
           "feature": "surface",
-          "value": "Ja"
+          "value": [
+            "Ja"
+          ]
         },
         {
           "feature": "color",
-          "value": "Gr\u00fcn"
+          "value": [
+            "Gr\u00fcn"
+          ]
         },
         {
           "feature": "ball",
-          "value": "Ja"
+          "value": [
+            "Ja"
+          ]
         },
         {
           "feature": "berry",
-          "value": "Ja"
+          "value": [
+            "Ja"
+          ]
         },
         {
           "feature": "place",
-          "value": "Nordeuropa"
+          "value": [
+            "Nordeuropa"
+          ]
         }
       ]
     },
@@ -884,23 +1244,33 @@
       "properties": [
         {
           "feature": "surface",
-          "value": "Nein"
+          "value": [
+            "Nein"
+          ]
         },
         {
           "feature": "color",
-          "value": "Gelb"
+          "value": [
+            "Gelb"
+          ]
         },
         {
           "feature": "ball",
-          "value": "Ja"
+          "value": [
+            "Ja"
+          ]
         },
         {
           "feature": "berry",
-          "value": "Nein"
+          "value": [
+            "Nein"
+          ]
         },
         {
           "feature": "place",
-          "value": "S\u00fcdeuropa"
+          "value": [
+            "S\u00fcdeuropa"
+          ]
         }
       ]
     },
@@ -909,23 +1279,33 @@
       "properties": [
         {
           "feature": "surface",
-          "value": "Ja"
+          "value": [
+            "Ja"
+          ]
         },
         {
           "feature": "color",
-          "value": "Violett"
+          "value": [
+            "Violett"
+          ]
         },
         {
           "feature": "ball",
-          "value": "Ja"
+          "value": [
+            "Ja"
+          ]
         },
         {
           "feature": "berry",
-          "value": "Ja"
+          "value": [
+            "Ja"
+          ]
         },
         {
           "feature": "place",
-          "value": "Nordeuropa"
+          "value": [
+            "Nordeuropa"
+          ]
         }
       ]
     },
@@ -934,23 +1314,33 @@
       "properties": [
         {
           "feature": "surface",
-          "value": "Nein"
+          "value": [
+            "Nein"
+          ]
         },
         {
           "feature": "color",
-          "value": "Gr\u00fcn"
+          "value": [
+            "Gr\u00fcn"
+          ]
         },
         {
           "feature": "ball",
-          "value": "Nein"
+          "value": [
+            "Nein"
+          ]
         },
         {
           "feature": "berry",
-          "value": "Ja"
+          "value": [
+            "Ja"
+          ]
         },
         {
           "feature": "place",
-          "value": "\u00dcbersee"
+          "value": [
+            "\u00dcbersee"
+          ]
         }
       ]
     },
@@ -959,23 +1349,33 @@
       "properties": [
         {
           "feature": "surface",
-          "value": "Nein"
+          "value": [
+            "Nein"
+          ]
         },
         {
           "feature": "color",
-          "value": "Gr\u00fcn"
+          "value": [
+            "Gr\u00fcn"
+          ]
         },
         {
           "feature": "ball",
-          "value": "Ja"
+          "value": [
+            "Ja"
+          ]
         },
         {
           "feature": "berry",
-          "value": "Ja"
+          "value": [
+            "Ja"
+          ]
         },
         {
           "feature": "place",
-          "value": "\u00dcbersee"
+          "value": [
+            "\u00dcbersee"
+          ]
         }
       ]
     },
@@ -984,23 +1384,33 @@
       "properties": [
         {
           "feature": "surface",
-          "value": "Ja"
+          "value": [
+            "Ja"
+          ]
         },
         {
           "feature": "color",
-          "value": "Orange"
+          "value": [
+            "Orange"
+          ]
         },
         {
           "feature": "ball",
-          "value": "Ja"
+          "value": [
+            "Ja"
+          ]
         },
         {
           "feature": "berry",
-          "value": "Nein"
+          "value": [
+            "Nein"
+          ]
         },
         {
           "feature": "place",
-          "value": "Nordeuropa"
+          "value": [
+            "Nordeuropa"
+          ]
         }
       ]
     },
@@ -1009,23 +1419,33 @@
       "properties": [
         {
           "feature": "surface",
-          "value": "Ja"
+          "value": [
+            "Ja"
+          ]
         },
         {
           "feature": "color",
-          "value": "Gr\u00fcn"
+          "value": [
+            "Gr\u00fcn"
+          ]
         },
         {
           "feature": "ball",
-          "value": "Ja"
+          "value": [
+            "Ja"
+          ]
         },
         {
           "feature": "berry",
-          "value": "Nein"
+          "value": [
+            "Nein"
+          ]
         },
         {
           "feature": "place",
-          "value": "S\u00fcdeuropa"
+          "value": [
+            "S\u00fcdeuropa"
+          ]
         }
       ]
     },
@@ -1034,23 +1454,70 @@
       "properties": [
         {
           "feature": "surface",
-          "value": "Nein"
+          "value": [
+            "Nein"
+          ]
         },
         {
           "feature": "color",
-          "value": "Rot"
+          "value": [
+            "Rot"
+          ]
         },
         {
           "feature": "ball",
-          "value": "Nein"
+          "value": [
+            "Nein"
+          ]
         },
         {
           "feature": "berry",
-          "value": "Nein"
+          "value": [
+            "Nein"
+          ]
         },
         {
           "feature": "place",
-          "value": "\u00dcbersee"
+          "value": [
+            "\u00dcbersee"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Kirsche",
+      "properties": [
+        {
+          "feature": "surface",
+          "value": [
+            "Ja"
+          ]
+        },
+        {
+          "feature": "color",
+          "value": [
+            "Rot",
+            "Schwarz",
+            "Gelb"
+          ]
+        },
+        {
+          "feature": "ball",
+          "value": [
+            "Ja"
+          ]
+        },
+        {
+          "feature": "berry",
+          "value": [
+            "Nein"
+          ]
+        },
+        {
+          "feature": "place",
+          "value": [
+            "Nordeuropa"
+          ]
         }
       ]
     }
