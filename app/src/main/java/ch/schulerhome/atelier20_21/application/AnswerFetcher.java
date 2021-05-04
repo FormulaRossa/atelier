@@ -20,12 +20,13 @@ public class AnswerFetcher {
         Map<String, Integer> result = new HashMap<>();
         for (Item item : items) {
             Property property = item.findPropertyByFeature(question.feature);
-            for (String value: property.value)
             if (property != null) {
-                if (!result.containsKey(value)) {
-                    result.put(value, 0);
+                for (String value: property.value) {
+                    if (!result.containsKey(value)) {
+                        result.put(value, 0);
+                    }
+                    result.put(value, result.get(value) + 1);
                 }
-                result.put(value, result.get(value) + 1);
             }
         }
 
