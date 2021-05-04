@@ -1,0 +1,851 @@
+{
+  "items": [
+    {
+      "name": "T-Rex",
+      "properties": [
+        {
+          "feature": "carnivor",
+          "value": [
+            "Ja"
+          ]
+        },
+        {
+          "feature": "poison",
+          "value": [
+            "Nein"
+          ]
+        },
+        {
+          "feature": "water",
+          "value": [
+            "Nein"
+          ]
+        },
+        {
+          "feature": "size",
+          "value": [
+            "Ja"
+          ]
+        },
+        {
+          "feature": "fly",
+          "value": [
+            "Nein"
+          ]
+        },
+        {
+          "feature": "feet",
+          "value": [
+            "2"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Spinosaurus",
+      "properties": [
+        {
+          "feature": "carnivor",
+          "value": [
+            "Ja"
+          ]
+        },
+        {
+          "feature": "poison",
+          "value": [
+            "Nein"
+          ]
+        },
+        {
+          "feature": "water",
+          "value": [
+            "Ja"
+          ]
+        },
+        {
+          "feature": "size",
+          "value": [
+            "Ja"
+          ]
+        },
+        {
+          "feature": "fly",
+          "value": [
+            "Nein"
+          ]
+        },
+        {
+          "feature": "feet",
+          "value": [
+            "2"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Dilophosaurus",
+      "properties": [
+        {
+          "feature": "carnivor",
+          "value": [
+            "Ja"
+          ]
+        },
+        {
+          "feature": "poison",
+          "value": [
+            "Ja"
+          ]
+        },
+        {
+          "feature": "water",
+          "value": [
+            "Nein"
+          ]
+        },
+        {
+          "feature": "size",
+          "value": [
+            "Nein"
+          ]
+        },
+        {
+          "feature": "fly",
+          "value": [
+            "Nein"
+          ]
+        },
+        {
+          "feature": "feet",
+          "value": [
+            "2"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Brachiosaurus",
+      "properties": [
+        {
+          "feature": "carnivor",
+          "value": [
+            "Nein"
+          ]
+        },
+        {
+          "feature": "poison",
+          "value": [
+            "Nein"
+          ]
+        },
+        {
+          "feature": "water",
+          "value": [
+            "Nein"
+          ]
+        },
+        {
+          "feature": "size",
+          "value": [
+            "Ja"
+          ]
+        },
+        {
+          "feature": "fly",
+          "value": [
+            "Nein"
+          ]
+        },
+        {
+          "feature": "feet",
+          "value": [
+            "4"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Triceratops",
+      "properties": [
+        {
+          "feature": "carnivor",
+          "value": [
+            "Nein"
+          ]
+        },
+        {
+          "feature": "poison",
+          "value": [
+            "Nein"
+          ]
+        },
+        {
+          "feature": "water",
+          "value": [
+            "Nein"
+          ]
+        },
+        {
+          "feature": "size",
+          "value": [
+            "Ja"
+          ]
+        },
+        {
+          "feature": "fly",
+          "value": [
+            "Nein"
+          ]
+        },
+        {
+          "feature": "feet",
+          "value": [
+            "4"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Stegosaurier",
+      "properties": [
+        {
+          "feature": "carnivor",
+          "value": [
+            "Nein"
+          ]
+        },
+        {
+          "feature": "poison",
+          "value": [
+            "Nein"
+          ]
+        },
+        {
+          "feature": "water",
+          "value": [
+            "Nein"
+          ]
+        },
+        {
+          "feature": "size",
+          "value": [
+            "Ja"
+          ]
+        },
+        {
+          "feature": "fly",
+          "value": [
+            "Nein"
+          ]
+        },
+        {
+          "feature": "feet",
+          "value": [
+            "4"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Deinonychus",
+      "properties": [
+        {
+          "feature": "carnivor",
+          "value": [
+            "Ja"
+          ]
+        },
+        {
+          "feature": "poison",
+          "value": [
+            "Nein"
+          ]
+        },
+        {
+          "feature": "water",
+          "value": [
+            "Nein"
+          ]
+        },
+        {
+          "feature": "size",
+          "value": [
+            "Nein"
+          ]
+        },
+        {
+          "feature": "fly",
+          "value": [
+            "Nein"
+          ]
+        },
+        {
+          "feature": "feet",
+          "value": [
+            "2"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Velociraptor",
+      "properties": [
+        {
+          "feature": "carnivor",
+          "value": [
+            "Ja"
+          ]
+        },
+        {
+          "feature": "poison",
+          "value": [
+            "Nein"
+          ]
+        },
+        {
+          "feature": "water",
+          "value": [
+            "Nein"
+          ]
+        },
+        {
+          "feature": "size",
+          "value": [
+            "Nein"
+          ]
+        },
+        {
+          "feature": "fly",
+          "value": [
+            "Nein"
+          ]
+        },
+        {
+          "feature": "feet",
+          "value": [
+            "2"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Pteradon",
+      "properties": [
+        {
+          "feature": "carnivor",
+          "value": [
+            "Ja"
+          ]
+        },
+        {
+          "feature": "poison",
+          "value": [
+            "Nein"
+          ]
+        },
+        {
+          "feature": "water",
+          "value": [
+            "Nein"
+          ]
+        },
+        {
+          "feature": "size",
+          "value": [
+            "Ja"
+          ]
+        },
+        {
+          "feature": "fly",
+          "value": [
+            "Ja"
+          ]
+        },
+        {
+          "feature": "feet",
+          "value": [
+            "4"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Compsognathus",
+      "properties": [
+        {
+          "feature": "carnivor",
+          "value": [
+            "Ja"
+          ]
+        },
+        {
+          "feature": "poison",
+          "value": [
+            "Ja"
+          ]
+        },
+        {
+          "feature": "water",
+          "value": [
+            "Nein"
+          ]
+        },
+        {
+          "feature": "size",
+          "value": [
+            "Nein"
+          ]
+        },
+        {
+          "feature": "fly",
+          "value": [
+            "Nein"
+          ]
+        },
+        {
+          "feature": "feet",
+          "value": [
+            "2"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Gigantosaurus",
+      "properties": [
+        {
+          "feature": "carnivor",
+          "value": [
+            "Ja"
+          ]
+        },
+        {
+          "feature": "poison",
+          "value": [
+            "Nein"
+          ]
+        },
+        {
+          "feature": "water",
+          "value": [
+            "Nein"
+          ]
+        },
+        {
+          "feature": "size",
+          "value": [
+            "Ja"
+          ]
+        },
+        {
+          "feature": "fly",
+          "value": [
+            "Nein"
+          ]
+        },
+        {
+          "feature": "feet",
+          "value": [
+            "2"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Brontosaurus",
+      "properties": [
+        {
+          "feature": "carnivor",
+          "value": [
+            "Nein"
+          ]
+        },
+        {
+          "feature": "poison",
+          "value": [
+            "Nein"
+          ]
+        },
+        {
+          "feature": "water",
+          "value": [
+            "Nein"
+          ]
+        },
+        {
+          "feature": "size",
+          "value": [
+            "Ja"
+          ]
+        },
+        {
+          "feature": "fly",
+          "value": [
+            "Nein"
+          ]
+        },
+        {
+          "feature": "feet",
+          "value": [
+            "4"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Pachycephalosaurus",
+      "properties": [
+        {
+          "feature": "carnivor",
+          "value": [
+            "Nein"
+          ]
+        },
+        {
+          "feature": "poison",
+          "value": [
+            "Nein"
+          ]
+        },
+        {
+          "feature": "water",
+          "value": [
+            "Nein"
+          ]
+        },
+        {
+          "feature": "size",
+          "value": [
+            "Nein"
+          ]
+        },
+        {
+          "feature": "fly",
+          "value": [
+            "Nein"
+          ]
+        },
+        {
+          "feature": "feet",
+          "value": [
+            "2"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Ankylosaurus",
+      "properties": [
+        {
+          "feature": "carnivor",
+          "value": [
+            "Nein"
+          ]
+        },
+        {
+          "feature": "poison",
+          "value": [
+            "Nein"
+          ]
+        },
+        {
+          "feature": "water",
+          "value": [
+            "Nein"
+          ]
+        },
+        {
+          "feature": "size",
+          "value": [
+            "Ja"
+          ]
+        },
+        {
+          "feature": "fly",
+          "value": [
+            "Nein"
+          ]
+        },
+        {
+          "feature": "feet",
+          "value": [
+            "4"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Gallimimus",
+      "properties": [
+        {
+          "feature": "carnivor",
+          "value": [
+            "Nein"
+          ]
+        },
+        {
+          "feature": "poison",
+          "value": [
+            "Nein"
+          ]
+        },
+        {
+          "feature": "water",
+          "value": [
+            "Nein"
+          ]
+        },
+        {
+          "feature": "size",
+          "value": [
+            "Nein"
+          ]
+        },
+        {
+          "feature": "fly",
+          "value": [
+            "Nein"
+          ]
+        },
+        {
+          "feature": "feet",
+          "value": [
+            "2"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Parasaurolophus",
+      "properties": [
+        {
+          "feature": "carnivor",
+          "value": [
+            "Nein"
+          ]
+        },
+        {
+          "feature": "poison",
+          "value": [
+            "Nein"
+          ]
+        },
+        {
+          "feature": "water",
+          "value": [
+            "Nein"
+          ]
+        },
+        {
+          "feature": "size",
+          "value": [
+            "Ja"
+          ]
+        },
+        {
+          "feature": "fly",
+          "value": [
+            "Nein"
+          ]
+        },
+        {
+          "feature": "feet",
+          "value": [
+            "2",
+            "4"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Ceratosaurus",
+      "properties": [
+        {
+          "feature": "carnivor",
+          "value": [
+            "Ja"
+          ]
+        },
+        {
+          "feature": "poison",
+          "value": [
+            "Nein"
+          ]
+        },
+        {
+          "feature": "water",
+          "value": [
+            "Nein"
+          ]
+        },
+        {
+          "feature": "size",
+          "value": [
+            "Ja"
+          ]
+        },
+        {
+          "feature": "fly",
+          "value": [
+            "Nein"
+          ]
+        },
+        {
+          "feature": "feet",
+          "value": [
+            "2"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Carnotaurus",
+      "properties": [
+        {
+          "feature": "carnivor",
+          "value": [
+            "Ja"
+          ]
+        },
+        {
+          "feature": "poison",
+          "value": [
+            "Nein"
+          ]
+        },
+        {
+          "feature": "water",
+          "value": [
+            "Nein"
+          ]
+        },
+        {
+          "feature": "size",
+          "value": [
+            "Ja"
+          ]
+        },
+        {
+          "feature": "fly",
+          "value": [
+            "Nein"
+          ]
+        },
+        {
+          "feature": "feet",
+          "value": [
+            "2"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Troodon",
+      "properties": [
+        {
+          "feature": "carnivor",
+          "value": [
+            "Ja"
+          ]
+        },
+        {
+          "feature": "poison",
+          "value": [
+            "Ja"
+          ]
+        },
+        {
+          "feature": "water",
+          "value": [
+            "Nein"
+          ]
+        },
+        {
+          "feature": "size",
+          "value": [
+            "Nein"
+          ]
+        },
+        {
+          "feature": "fly",
+          "value": [
+            "Nein"
+          ]
+        },
+        {
+          "feature": "feet",
+          "value": [
+            "2"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Kentrosaurus",
+      "properties": [
+        {
+          "feature": "carnivor",
+          "value": [
+            "Nein"
+          ]
+        },
+        {
+          "feature": "poison",
+          "value": [
+            "Nein"
+          ]
+        },
+        {
+          "feature": "water",
+          "value": [
+            "Nein"
+          ]
+        },
+        {
+          "feature": "size",
+          "value": [
+            "Ja"
+          ]
+        },
+        {
+          "feature": "fly",
+          "value": [
+            "Nein"
+          ]
+        },
+        {
+          "feature": "feet",
+          "value": [
+            "2"
+          ]
+        }
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "question": "Ist er ein Fleischfresser?",
+      "feature": "carnivor"
+    },
+    {
+      "question": "Besitzt er Gift?",
+      "feature": "poison"
+    },
+    {
+      "question": "Kann er schwimmen?",
+      "feature": "water"
+    },
+    {
+      "question": "Ist er gr\u00f6sser als 2m?",
+      "feature": "size"
+    },
+    {
+      "question": "Ist er ein Flugsaurier?",
+      "feature": "fly"
+    },
+    {
+      "question": "Auf wie vielen Beinen bewegt er sich bevorzugt?",
+      "feature": "feet"
+    }
+  ]
+}
